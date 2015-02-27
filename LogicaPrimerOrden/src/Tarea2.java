@@ -4,7 +4,7 @@ public class Tarea2 {
 		Humano abuelo=new Humano();
 		abuelo.setNombre("Jose");
 		Humano tio = new Humano();
-		tio.setNombre("Juan");
+		tio.setNombre("Saul");
 		Humano papa = new Humano();
 		papa.setNombre("Luis");
 		Humano sis = new Humano();

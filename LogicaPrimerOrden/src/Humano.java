@@ -29,7 +29,7 @@ public class Humano {
 		
 			hijo.Enlaces.put(this, "padre");
 		if(hermanos.size()>0){
-			for (Humano hermano : hermanos) {//se asignan los tios al hijo
+			for (Humano hermano : hermanos) {//se asignan los tios al hijo.
 				hermano.setSobrino(hijo);
 			}
 		}
